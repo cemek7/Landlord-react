@@ -1,0 +1,100 @@
+/* styles.css */
+/* Global styles for the entire landing page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.small-container {
+  max-width: 200px; /* Adjust the max-width as needed */
+}
+
+/* Custom CSS */
+.small-logo {
+  max-width: 100px; /* Adjust the max-width as needed */
+  max-height: 40px; /* Adjust the max-height as needed */
+}
+
+
+
+/* Header styles */
+header {
+  background-color: #fff;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Feature styles */
+#features {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.feature {
+  margin-bottom: 20px;
+}
+
+/* Call to Action styles */
+#cta {
+  background-color: #fff;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #5b62e4;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
