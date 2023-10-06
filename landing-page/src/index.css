@@ -7,6 +7,13 @@ body {
   background-color: #f0f0f0;
 }
 
+/* Custom CSS for smaller input fields */
+.smaller-input {
+  padding: 0.25rem 0.5rem; /* Adjust padding to make it smaller */
+  font-size: 0.875rem; /* Adjust font size to make it smaller */
+  width: 50px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;

@@ -1,10 +1,14 @@
-// Footer.js
+//LoginFooter.js
 import React from 'react';
 import { Facebook, Github, Instagram, Linkedin, Twitter } from 'react-bootstrap-icons';
+import { Container, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-function Footer() {
+function LoginFooter() {
   return (
-    <footer className=" text-white text-center py-3">
+    <footer>
+      {
+      /* Signup page footer content */
       <div className="container">
         <p>&copy; 2023 Your Company. All rights reserved.</p>
         <div className="social-icons">
@@ -15,8 +19,9 @@ function Footer() {
           <a href="#"><Twitter size={24} /></a>
         </div>
       </div>
+      }
     </footer>
   );
 }
 
-export default Footer;
+export default LoginFooter;

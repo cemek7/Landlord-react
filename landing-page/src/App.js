@@ -1,18 +1,22 @@
-import Header from './components/Header';
-import Features from './components/Features';
-import CallToAction from './components/CallToAction';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LandingPage from './components/LandingPage'; // Your landing page component
+import ExplorePage from './components/ExplorePage';
+import LoginPage from './components/LoginPage';
+import SignupPage from './components/SignupPage';
+
 
 import './index.css';
 
 function App() {
   return (
-    <div>
-    <Header />
-    <CallToAction />
-    <Features />
-    <Footer />
-  </div>
+    <Router>
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/signup" element={<SignupPage />} />
+      <Route path="/explore" element={<ExplorePage />} />
+      </Routes>
+  </Router>
   );
 }
 

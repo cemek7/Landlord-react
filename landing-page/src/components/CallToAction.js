@@ -1,6 +1,7 @@
 // CallToAction.js
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function CallToAction() {
   return (
@@ -9,7 +10,7 @@ function CallToAction() {
     <div className="mt-4">
           <img
             src="icon-logo.jpeg" // Replace with your image URL
-            alt="Image"
+            alt=''
             className="img-fluid thumbnail" // Add Bootstrap classes to center and style the image
           />
         </div>
@@ -18,7 +19,7 @@ function CallToAction() {
       <br />
       <p>Own, Rent and Invest in Real Estate the easy way
       <br /> Open your account to get Started</p>
-      <Button variant="primary">Get a free Account</Button>
+      <Link as={Link} to="/signup"><Button variant="primary">Get a free Account</Button></Link>
     </Container>
   </section>
   );
